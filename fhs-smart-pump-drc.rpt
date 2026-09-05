@@ -1,0 +1,554 @@
+** Drc report for fhs-smart-pump.kicad_pcb **
+** Created on 2026-09-05T07:53:37 **
+** Report includes: Errors, Warnings **
+
+** Found 134 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(29.3500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(29.3500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 128.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 128.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(29.3500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 48.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(34.1500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 53.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 49.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 48.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(29.3500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 53.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(30.0500 mm, 48.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 48.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 49.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(34.1500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 133.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 128.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 129.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(34.1500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 128.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(34.1500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(31.7500 mm, 133.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 129.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(33.4500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(114.3500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(114.3500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 128.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 128.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 48.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 48.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 49.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(119.1500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(114.3500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 48.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 53.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(114.3500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 53.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(115.0500 mm, 48.9500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 52.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 49.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+    @(119.1500 mm, 50.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 128.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 128.3500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 133.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 129.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(119.1500 mm, 130.7500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(116.7500 mm, 133.1500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 132.4500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(118.4500 mm, 129.0500 mm): NPTH pad of MECH1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+    @(119.1500 mm, 130.7500 mm): NPTH pad of MECH1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(215.1300 mm, 44.4000 mm): Footprint U3
+    @(217.0000 mm, 44.7400 mm): Footprint R6
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(217.0000 mm, 44.7400 mm): PTH pad 1 [/sign-dong-chay] of R6
+    @(215.1300 mm, 44.4000 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(217.0000 mm, 34.5800 mm): PTH pad 2 [+5V] of R6
+    @(215.1300 mm, 44.4000 mm): Footprint U3
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3964 mm)
+    Rule: board setup constraints edge; error
+    @(32.0000 mm, 130.5000 mm): Arc on Edge.Cuts
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(29.3500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(29.3500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(29.3500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(29.3500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 48.9500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 48.9500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 128.9500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 128.9500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(30.0500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 48.3500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 48.3500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 53.1500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 53.1500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 128.3500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 128.3500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 133.1500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(31.7500 mm, 133.1500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 49.0500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 49.0500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 129.0500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 129.0500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(33.4500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(34.1500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(34.1500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(34.1500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(34.1500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 48.9500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 48.9500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 128.9500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 128.9500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 48.3500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 48.3500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 53.1500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 53.1500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 128.3500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 128.3500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 133.1500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.7500 mm, 133.1500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 49.0500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 49.0500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 52.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 129.0500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 129.0500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.4500 mm, 132.4500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.1500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.1500 mm, 50.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 50.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.1500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.1500 mm, 130.7500 mm): NPTH pad of MECH1
+    @(116.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(32.0000 mm, 130.5000 mm): Arc on Edge.Cuts
+    @(28.2500 mm, 134.2500 mm): Reference field of MECH1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(28.2500 mm, 134.2500 mm): Reference field of MECH1
+    @(31.7500 mm, 130.7500 mm): PTH pad [<no net>] of MECH1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

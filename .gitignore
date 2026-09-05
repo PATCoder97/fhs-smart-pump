@@ -1,0 +1,20 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# KiCad local state, locks, and automatic backups
+.history/
+*.kicad_prl
+~*.lck
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+
+# JLCPCB plugin cache
+jlcpcb/project.db
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
