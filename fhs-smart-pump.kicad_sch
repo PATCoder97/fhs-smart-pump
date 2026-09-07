@@ -187,6 +187,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -393,7 +631,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x09"
+		(symbol "Connector:Screw_Terminal_01x07"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -404,7 +642,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -413,8 +651,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x09"
-				(at 0 -12.7 0)
+			(property "Value" "Screw_Terminal_01x07"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -445,7 +683,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -478,28 +716,16 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x09_1_1"
+			(symbol "Screw_Terminal_01x07_1_1"
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -11.43)
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 10.4902) (xy 0.3302 9.652)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -577,30 +803,6 @@
 				(polyline
 					(pts
 						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -9.8298) (xy 0.3302 -10.668)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 10.668) (xy 0.508 9.8298)
 					)
 					(stroke
 						(width 0.1524)
@@ -694,29 +896,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 -9.652) (xy 0.508 -10.4902)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 7.62)
 					(radius 0.635)
@@ -794,19 +973,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -824,7 +992,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -842,7 +1010,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -860,7 +1028,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -878,7 +1046,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -896,7 +1064,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -914,7 +1082,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -924,42 +1092,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4527,12 +4659,6 @@
 		(uuid "c10b0efb-4e8e-4b00-b2d4-486b6c218843")
 	)
 	(junction
-		(at 87.63 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec023dda-9b1d-49a3-a319-a62775ab5eef")
-	)
-	(junction
 		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4567,16 +4693,6 @@
 			(type default)
 		)
 		(uuid "09d8b342-b189-49c7-afd6-97cdea80de4f")
-	)
-	(wire
-		(pts
-			(xy 87.63 172.72) (xy 87.63 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa1154a-ed62-41de-b625-f3644a118195")
 	)
 	(wire
 		(pts
@@ -4760,6 +4876,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 196.85) (xy 118.11 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3e0589-e013-4668-9214-986242ed89c5")
+	)
+	(wire
+		(pts
 			(xy 44.45 99.06) (xy 60.96 99.06)
 		)
 		(stroke
@@ -4797,6 +4923,16 @@
 			(type default)
 		)
 		(uuid "4c2ac578-ff57-424f-a536-0140dd7d1e13")
+	)
+	(wire
+		(pts
+			(xy 114.3 201.93) (xy 118.11 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee490d9-7488-41aa-bcb5-1d953185596c")
 	)
 	(wire
 		(pts
@@ -5100,6 +5236,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 207.01) (xy 118.11 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96442e6f-0c23-449b-a3ec-fe01e7fbe451")
+	)
+	(wire
+		(pts
 			(xy 87.63 160.02) (xy 87.63 162.56)
 		)
 		(stroke
@@ -5170,16 +5316,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 172.72) (xy 87.63 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8532427-84d5-4aa8-ad43-d8119cc02c6f")
-	)
-	(wire
-		(pts
 			(xy 153.67 46.99) (xy 153.67 49.53)
 		)
 		(stroke
@@ -5190,13 +5326,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 170.18) (xy 80.01 170.18)
+			(xy 114.3 207.01) (xy 118.11 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac57fc7e-9007-4ea2-885b-f3a30c6d678f")
+		(uuid "b416f3fa-c482-4d21-8c66-2bde49364aaf")
 	)
 	(wire
 		(pts
@@ -5207,16 +5343,6 @@
 			(type default)
 		)
 		(uuid "b7608ec4-7ac5-4929-96e6-42889afaf0d3")
-	)
-	(wire
-		(pts
-			(xy 91.44 143.51) (xy 91.44 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9e4774-f8ca-431e-a53d-e498e42c02b8")
 	)
 	(wire
 		(pts
@@ -5240,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 162.56) (xy 87.63 172.72)
+			(xy 87.63 162.56) (xy 87.63 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5983,107 +6109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x09")
-		(at 74.93 162.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ba2bfe9-987c-42d6-a8d8-621a3cdfa268")
-		(property "Reference" "J1"
-			(at 74.93 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x09"
-			(at 74.93 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-09P_1x09_P5.00mm"
-			(at 74.93 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6e7f08e5-5766-4cdb-bddf-0c106cb63c37")
-		)
-		(pin "6"
-			(uuid "842efcca-450f-40c9-b798-0138325d548b")
-		)
-		(pin "1"
-			(uuid "5a86b392-b4ea-4842-9220-024cafabe6ae")
-		)
-		(pin "5"
-			(uuid "a7003f48-2cc1-4518-962b-8ac42379dd95")
-		)
-		(pin "3"
-			(uuid "432d41bc-2413-4ded-bca7-de007df020b6")
-		)
-		(pin "2"
-			(uuid "730de0ac-83c0-422f-85ef-2c0e739c7fd6")
-		)
-		(pin "8"
-			(uuid "84fe796e-a905-4336-ab76-6f57e1a84c3e")
-		)
-		(pin "7"
-			(uuid "b2b87466-3d74-47c2-8b9b-c0a67155d00e")
-		)
-		(pin "9"
-			(uuid "7942b390-b02c-466e-b210-40e43c8f6473")
-		)
-		(instances
-			(project "fhs-smart-pump"
-				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 74.93 187.96 180)
 		(unit 1)
@@ -6326,6 +6351,84 @@
 			(project "fhs-smart-pump"
 				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bc37c6e-f5c2-4320-803b-40dd4a5a3fd1")
+		(property "Reference" "#PWR020"
+			(at 118.11 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed7adf44-f4b9-4aea-afea-e5b76ca414a6")
+		)
+		(instances
+			(project "fhs-smart-pump"
+				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7117,6 +7220,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 106.68 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f5d237-9ee5-45f0-a019-8a7c229fa114")
+		(property "Reference" "J1"
+			(at 106.68 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 106.68 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 107.95 205.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 205.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 106.68 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2dcc6a61-7788-43b4-9942-d7a3e4be9fab")
+		)
+		(pin "3"
+			(uuid "68f6dd30-d83b-4a93-93e7-3cd9a730d289")
+		)
+		(pin "1"
+			(uuid "c5328d85-ce63-4e65-9b06-f53d86dc7839")
+		)
+		(instances
+			(project "fhs-smart-pump"
+				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:PC817")
 		(at 81.28 54.61 0)
 		(unit 1)
@@ -7200,6 +7386,83 @@
 			(project "fhs-smart-pump"
 				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bdde5e8-dd42-4a59-a4ba-fda077299553")
+		(property "Reference" "#PWR015"
+			(at 118.11 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 120.904 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bf74425-07dc-4c74-918e-9568360e717d")
+		)
+		(instances
+			(project "fhs-smart-pump"
+				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7437,83 +7700,6 @@
 			(project "fhs-smart-pump"
 				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 91.44 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90f21727-a787-4c3a-ba44-2d5cc8a7669c")
-		(property "Reference" "#PWR015"
-			(at 91.44 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 94.234 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d9d2ffa-8f5c-4eb8-9c1d-8e0a11d0ae35")
-		)
-		(instances
-			(project "fhs-smart-pump"
-				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8653,6 +8839,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x07")
+		(at 74.93 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4ef033-56bf-4152-b7a2-5f411af1129a")
+		(property "Reference" "J5"
+			(at 74.93 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x07"
+			(at 74.93 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm"
+			(at 74.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00f7d73f-cdb7-43bc-8dc6-60ab42e54bb6")
+		)
+		(pin "5"
+			(uuid "dc44afcc-fe5c-43da-b33a-31c040d18134")
+		)
+		(pin "4"
+			(uuid "dbb3d240-0de4-4ae3-82ed-5db629892211")
+		)
+		(pin "7"
+			(uuid "1329f617-833c-486c-ae1c-966d2edbb563")
+		)
+		(pin "3"
+			(uuid "814ea663-3481-486e-9e21-aebc166803ea")
+		)
+		(pin "2"
+			(uuid "2195786d-cc1e-4542-b6b2-e1e74a5a7868")
+		)
+		(pin "6"
+			(uuid "206d0c4f-bf08-4452-a68e-18fbaac912a5")
+		)
+		(instances
+			(project "fhs-smart-pump"
+				(path "/7d2847ba-90c2-49d8-a383-990844771b80"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 129.54 151.13 180)
 		(unit 1)
@@ -9104,7 +9385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 175.26 0)
+		(at 87.63 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9115,7 +9396,7 @@
 		(fields_autoplaced yes)
 		(uuid "d58926f2-f473-4bcc-8a96-21df2b5dea9e")
 		(property "Reference" "#PWR016"
-			(at 87.63 181.61 0)
+			(at 87.63 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9126,7 +9407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 180.34 0)
+			(at 87.63 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +9417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 175.26 0)
+			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 175.26 0)
+			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 175.26 0)
+			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
