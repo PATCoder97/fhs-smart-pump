@@ -1,0 +1,42 @@
+** Drc report for fhs-smart-pump.kicad_pcb **
+** Created on 2026-09-07T09:27:53 **
+** Report includes: Errors, Warnings **
+
+** Found 6 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+    @(88.0500 mm, 84.7500 mm): Footprint R7
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0500 mm, 84.7500 mm): PTH pad 1 [/sign-dong-dien] of R7
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(98.2100 mm, 84.7500 mm): PTH pad 2 [+3.3V] of R7
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+    @(88.0500 mm, 80.7500 mm): Footprint R5
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(88.0500 mm, 80.7500 mm): PTH pad 1 [/btn-bang-tay] of R5
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(98.2100 mm, 80.7500 mm): PTH pad 2 [+3.3V] of R5
+    @(93.1300 mm, 85.4100 mm): Footprint U3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
